@@ -1,0 +1,407 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+.navBar {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.leftNav {
+  display: flex;
+}
+.logo {
+  padding-left: 40px;
+  font-weight: 900;
+  width: 60px;
+}
+.leftNav--ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0 40px;
+}
+.leftNav--ul li {
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 17.5px;
+}
+#more a {
+  color: #ff764d;
+  padding-top: 0;
+  line-height: 1.5px;
+}
+#more a span {
+  font-size: 25px;
+}
+.rightNav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.rightNav li {
+  margin-right: 30px;
+}
+.rightNav li:first-child a {
+  color: #0000ff;
+  font-weight: 600;
+}
+.rightNav li:last-child a {
+  font-weight: 500;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+@media screen and (max-width: 870px) {
+  .navBar {
+    height: 90px;
+  }
+  .leftNav--ul li {
+    margin-right: 10px;
+  }
+  .rightNav {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .rightNav li {
+    margin: 1rem 0 6px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .navBar {
+    height: 200px;
+  }
+  .leftNav--ul li {
+    margin-right: 10px;
+  }
+  .rightNav {
+    flex-direction: column;
+  }
+  .rightNav li {
+    font-size: 12px;
+    margin: 1rem 0 6px;
+  }
+}
+
+/* The downbar*/
+
+ul#navbar--2 {
+  position: sticky;
+  top: 0;
+  display: flex;
+  list-style: none;
+
+  height: 70px;
+  align-items: center;
+  padding-left: 2.3rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+#navbar--2 li {
+  margin-right: 2rem;
+}
+#about {
+  color: #ff0000;
+}
+.center--div {
+  margin: 0 auto;
+}
+.hero {
+  width: 1150px;
+  height: 500px;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 7rem;
+  color: #ff764d;
+}
+
+/* Message*/
+
+.message {
+  max-width: 60%;
+  font-size: 20px;
+  margin: 6rem auto 3rem;
+}
+.message h1 {
+  font-weight: 400;
+}
+.message a {
+  color: #0000ff;
+  font-weight: 500;
+}
+.message p {
+  opacity: 0.7;
+  font-weight: 200;
+  margin-top: 2rem;
+}
+/**Picture 1**/
+.picture1 {
+  width: 49rem;
+  height: 42rem;
+  margin-left: 30rem;
+  background-color: #fbffa7;
+  position: relative;
+}
+.picture1 img:first-child {
+  position: absolute;
+  left: -35rem;
+  top: 4rem;
+  width: 700px;
+}
+.picture img:last-child {
+  position: absolute;
+  right: 0px;
+  top: 9rem;
+  width: 500px;
+}
+.message--2 {
+  max-width: 55%;
+  margin: 8rem auto;
+}
+.message--2 h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.message--2 p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+/*video*/
+.video--container {
+  width: 50%;
+  margin: 10px auto;
+}
+.video {
+  width: 560px;
+  height: 315px;
+}
+.video--container p {
+  font-size: 12px;
+}
+.picture2 {
+  width: 49rem;
+  height: 42rem;
+  margin-left: 30rem;
+  background: #b6ffc0;
+  position: relative;
+}
+/*message 3*/
+.img--one,
+.img--two {
+  width: 500px;
+  position: absolute;
+}
+.img--three {
+  right: -30rem;
+  position: absolute;
+  top: 13rem;
+  width: 600px;
+}
+.img--one {
+  top: 8rem;
+  left: 5rem;
+}
+.img--two {
+  top: 35rem;
+  left: 5rem;
+}
+.hero2 {
+  background-image: url();
+  background-size: cover;
+  width: 1150px;
+  height: 500px;
+  margin: 40px auto;
+}
+.backsite3 {
+  width: 910px;
+  height: 796px;
+  background-color: #d5b3ff;
+  z-index: 0;
+}
+.picture3 {
+  position: relative;
+}
+.image1 {
+  position: absolute;
+  left: 8rem;
+  top: 14rem;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  width: 569px;
+  height: 596px;
+  z-index: 1;
+}
+.qoute {
+  width: 1139px;
+  height: 569px;
+  margin: 9rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #fffdad;
+}
+.qoute--img {
+  background-image: url();
+  background-size: cover;
+}
+.quoute--p {
+  background: #b1c5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  word-spacing: 6px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+.qoute--p h2 {
+  width: 341px;
+  height: 282px;
+}
+.qoute--p h2:last-child a {
+  color: blue;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem 4rem;
+  gap: 1.5rem;
+}
+ul.footer--list li {
+  list-style-type: none;
+  line-height: 1.6;
+}
+.icons i {
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+#third {
+  margin-bottom: 10px;
+}
+#signUp {
+  margin: 0.8rem 0;
+  display: flex;
+}
+#input {
+  padding: 7px;
+  background: #ddd;
+  flex: 2;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.sign--up {
+  flex: 0.7;
+  outline: none;
+  border: none;
+  background: blue;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+::placeholder {
+  font-size: 1rem;
+  padding: 5px;
+}
+.drop {
+  margin: 0.5rem;
+}
+#country,
+#Language {
+  background: #ddd;
+  outline: none;
+  border: none;
+  padding: 3px;
+}
+#country {
+  width: 150px;
+}
+.footer--last {
+  width: 1140px;
+  margin: 3rem auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.list--last {
+  display: flex;
+  list-style: none;
+}
+.list--last li {
+  margin-right: 1rem;
+}
+.div--last {
+  display: flex;
+  align-items: center;
+}
+.div--last p {
+  margin-right: 0.6rem;
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+body.scrolled #navbar--2 {
+  animation: fadeIn 2s forwards;
+  visibility: visible;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+    visibility: hidden;
+  }
+  10% {
+    opacity: 0.9;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  30% {
+    opacity: 0.7;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  70% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

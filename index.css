@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  overflow: hidden;
+  background: linear-gradient(45deg, #43399f, #4ec5ca);
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.numeros {
+  position: relative;
+  height: 100px;
+  width: 200px;
+}
+
+.one,
+.barra-one {
+  background: white;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.4);
+}
+
+.one {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  transform: rotate(50deg);
+  left: -18px;
+  border-radius: 3px;
+}
+
+.barra-one {
+  position: absolute;
+  width: 24px;
+  height: 100px;
+  left: 0px;
+  border-radius: 3px;
+  z-index: 4;
+}
+
+.zero {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 13px;
+  border: solid white 24px;
+  border-radius: 50%;
+  z-index: 3;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.4);
+}
+
+.zero-two {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 95px;
+  border: solid white 24px;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.4);
+}
+
+.days {
+  position: relative;
+  font-size: 75px;
+  font-weight: 700;
+  color: white;
+}
+
+.challeng {
+  position: relative;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+}
